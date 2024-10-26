@@ -32,7 +32,9 @@ export const Sender = () => {
     };
 
     const pc = new RTCPeerConnection();
+
     setPC(pc);
+    
     pc.onicecandidate = (event) => {
       if (event.candidate) {
         socket?.send(
