@@ -31,9 +31,7 @@ node server.js
 node client.js
 ```
 
-
-
-![webrtc](D:\WebRtc\webrtc.png)
+![webrtc](webrtc.png)
 
 ```
 
